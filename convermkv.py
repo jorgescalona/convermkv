@@ -10,7 +10,6 @@ def despedida():
 
 def renom(arch):
     """esta funcion elimina los espacios en blacos de los nombres de archivos"""
-    print 'EN LA FUNCION'
     print arch
     sesp=''.join(arch.split())
     return sesp
